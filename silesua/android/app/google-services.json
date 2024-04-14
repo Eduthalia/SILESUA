@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "920177091983",
+    "project_id": "hackh-80fe9",
+    "storage_bucket": "hackh-80fe9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:920177091983:android:5c6b7806b5f295376797fa",
+        "android_client_info": {
+          "package_name": "com.example.silesua"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIUGqM8Cw2q5vJrr6nV_Q5f2r9xna8J_o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

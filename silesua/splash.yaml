@@ -1,0 +1,17 @@
+# A new file has been created and added 
+# so that this can be reused for other future projects.
+
+flutter_native_splash:
+  color: "#FFFFFF" # color for the light mode
+  color_dark: "#272727" # color for the dark mode
+  image: assets/logos/CapLogosLight.jpg
+  # image_dark: assets/logos/CapLogoDark.jpg
+  android: true
+
+  android_12:
+    color: "#FFFFFF" # color for the light mode
+    color_dark: "#272727" # color for the dark mode
+    image: assets/logos/CapLogosLight.jpg
+    # image_dark: assets/logos/CapLogoDark.jpg
+
+  web: false
