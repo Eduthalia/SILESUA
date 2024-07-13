@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:flutter/material.dart';
 
 void main() {
@@ -5,6 +7,8 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -14,6 +18,8 @@ class MyApp extends StatelessWidget {
 }
 
 class AlertPage extends StatefulWidget {
+  const AlertPage({super.key});
+
   @override
   _AlertPageState createState() => _AlertPageState();
 }
@@ -88,8 +94,8 @@ class _AlertPageState extends State<AlertPage> {
       floatingActionButton: FloatingActionButton(
         onPressed: _alertSent ? null : () => _sendAlert(),
         tooltip: 'Send Alert',
-        child: Icon(Icons.warning),
         backgroundColor: _alertSent ? Colors.grey : Colors.red,
+        child: Icon(Icons.warning),
       ),
     );
   }
